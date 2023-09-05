@@ -4,31 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Buscador de Películas</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');</style>
+  <link rel="shortcut icon" href="./movie.png" type="image/x-icon">    
+  <title>Movie Search</title>
 </head>
 <body>
   <header>
-    <h1>Buscador de Películas</h1>
+    <h1>Movie Search</h1>
     <div class="search-bar">
-      <input type="text" id="search" placeholder="Buscar películas">
-      <button id="search-button">Buscar</button>
+      <input type="text" id="search" placeholder="Search movies">
+      <button id="search-button">Search</button>
     </div>
     <div class="filter-sort">
       <select id="genre-filter">
-        <option value="">Todos los géneros</option>
-        <option value="28">Acción</option>
-        <option value="35">Comedia</option>
+        <option value="">All Genres</option>
+        <option value="28">Action</option>
+        <option value="35">Comedy</option>
         <option value="18">Drama</option>
       </select>
       <select id="sort-by">
-        <option value="popularity.desc">Popularidad (descendente)</option>
-        <option value="vote_average.desc">Calificación (descendente)</option>
-        <option value="release_date.desc">Fecha de Lanzamiento (descendente)</option>
+        <option value="popularity.desc">Popularity (descendent)</option>
+        <option value="vote_average.desc">Rating (descendent)</option>
+        <option value="release_date.desc">Release Date (descendent)</option>
       </select>
     </div>
+    
   </header>
   <main>
     <div class="movie-list" id="movie-list"></div>
+
+    <div class="modal" id="movie-modal">
+      <div class="modal-content">
+        <span class="close-button" id="close-button">&times;</span>
+        <div id="modal-content"></div>
+      </div>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
