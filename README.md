@@ -31,11 +31,6 @@ This is a simple web application that allows users to search for movies using Th
 2. Use the genre filter dropdown to filter movies by genre.
 3. Use the sort by dropdown to change the sorting order of results.
 
-## Screenshots
-
-![Movie List](screenshots/movie-list.png)
-![Filtered Movies](screenshots/filtered-movies.png)
-
 ## Future Enhancements
 
 - Implement a modal to display detailed movie information.
