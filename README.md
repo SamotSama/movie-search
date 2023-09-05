@@ -34,8 +34,6 @@ This is a simple web application that allows users to search for movies using Th
 ## Future Enhancements
 
 - Implement a modal to display detailed movie information.
-- Add pagination for better user experience.
-- Allow users to save favorite movies using local storage.
 
 ## Contribution
 
