@@ -2,14 +2,20 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-color: #e0aaff;
   }
   
   header {
-    background-color: #333;
+    background-color: #3c096c;
     color: #fff;
     padding: 1rem;
     text-align: center;
+  }
+
+  h1{
+    color: #10002b;
+    text-shadow: #e0aaff 1px 0 10px;
+    font-size: 4em;
   }
   
   .search-bar {
@@ -22,15 +28,16 @@ body {
   
   #search {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4px;
     width: 70%;
+    background-color: #7b2cbf;
   }
   
   #search-button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #007bff;
+    background-color: #10002b;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
@@ -45,11 +52,11 @@ body {
   
   .movie-card {
     width: 250px;
-    border: 1px solid #ccc;
+    border: 1px solid #7b2cbf;
     border-radius: 4px;
     margin-bottom: 1rem;
     padding: 0.5rem;
-    background-color: #fff;
+    background-color: #3c096c;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -75,6 +82,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+  }
+
+  #genre-filter{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #10002b;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  #sort-by{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #10002b;
+    color: #fff;
+    border-radius: 4px;
   }
   
   .modal {
@@ -92,19 +116,26 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #9d4edd;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 80%;
     max-height: 80%;
     overflow: auto;
+    color: #f1daff;
   }
 
-  .close-button {
+  #close-button-modal {
     position: absolute;
     top: 0;
     right: 0;
     padding: 10px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #10002b;
+    color: #fff;
+    border-radius: 4px;
     cursor: pointer;
   }
 

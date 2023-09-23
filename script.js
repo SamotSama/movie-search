@@ -56,7 +56,7 @@ function openModal(movieId) {
         <p>${movieData.overview}</p>
         <p>Rating: ${movieData.vote_average}</p>
         <p>Realease Date: ${movieData.release_date}</p>
-        <button id="close-button-modal">&times; Cerrar</button>
+        <button id="close-button-modal">&times;</button>
       `;
 
       modal.style.display = "block";
